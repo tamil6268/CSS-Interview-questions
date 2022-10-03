@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: underline;
+    font-size: 55px;
+    margin-bottom: 60px;
+    
+}
+.Q{
+    margin-left: 290px;
+    margin-right: 280px;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+}
+.Q:hover{
+    font-size: x-large;
+    color: red;
+}
+.A{
+    margin-left: 290px;
+    margin-right: 280px;
+    color: blue;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+.A:hover{
+    font-size: large;
+    color: green;
+}
+button{
+    width: 300px;
+    height: 40px;
+    background-color: lightseagreen;
+    border-radius: 20px;
+    font-size: small;
+}
+button:hover{
+    background-color: lightgreen;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

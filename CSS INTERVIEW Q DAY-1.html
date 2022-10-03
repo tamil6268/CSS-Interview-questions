@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS INTERVIEW Q.css">
+</head>
+<body>
+    <div class="contaoner">
+        <h1>CSS INTERVIEW Q&A</h1>
+
+        <div class="Q">1. Difference between flex-direction as row and column.</div>
+            <div class="A">
+                <p>This is a CSS property based on the concept of the flexbox. Flex-direction property can be applied to the parent elements and then the child elements of this parent tag will be placed accordingly.</p>
+                <p>The difference is when we apply flex-direction : row, child elements will be placed one after another in the same row (horizontally) and then the row or x-axis will be considered as the main axis, in this case the y-axis will be known as cross axis. </p>
+                <button><a href="">CLICK ME FOR EXAMPLE</a></button>
+            </div>
+            <hr style="margin-left: 290px;
+            margin-right: 280px;">
+
+            <div class="Q">2. Explain the Inline, Internal, and External Stylesheet.</div>
+            <div class="A">
+                <p>In CSS, we have 3 different ways of writing styles for HTML elements:</p>
+                <ul type="circle">
+                    <li>Inline</li>
+                    <li>Internal</li>
+                    <li>External</li>
+                </ul>
+                <p>Inline styling gets applied directly to the element in the style attribute. This styling is having the highest priority among all. But it is not advised to use this styling much in projects.</p>
+                <button><a href="">CLICK ME FOR EXAMPLE</a></button>
+                <p>Internal styling gets written in the head tag of the HTML file. It will be written in the style tag. The styling written in style tag will be applicable only in that HTML file.</p>
+                <button><a href="">CLICK ME FOR EXAMPLE</a></button>
+                <p>External Styling is done by creating a different CSS file with .css extension. This file can be linked to any HTML file wherever the styling is required. The external CSS file can be attached to the HTML file in the head tag in the link tag. This styling is having the least priority but it is the most advised way of writing styling in projects.</p>
+                <button><a href="">CLICK ME FOR EXAMPLE</a></button>
+            </div>
+            <hr style="margin-left: 290px;
+            margin-right: 280px;">
+
+            <div class="Q">3. What does justify-content allow you to do?</div>
+            <div class="A">
+                <p style="text-align:center;">The justify-content property is a sub-property of the Flex-box Module.</p>
+                <p>The justify-content property specifies how flex-items are distributed along the main axis of their parent flex-container. If the flex-direction of the parent container is row(default value) then the main axis will be the x-axis. If the flex-direction is a column then the main axis will be the y-axis. This property has 6 different possible values:</p>
+                <ul type="disc">
+                    <li>Flex-Start(default)</li>
+                    <li>Flex-end</li>
+                    <li>Center</li>
+                    <li>Space-around</li>
+                    <li>Space-between</li>
+                    <li>Space-evenly</li>
+                    <li>stretch</li>
+                </ul>
+                <button><a href="">CLICK ME FOR EXAMPLE</a></button>
+            </div>
+            <hr style="margin-left: 290px;
+            margin-right: 280px;">
+
+            <div class="Q">4. Difference between Absolute and Relative Positioning?</div>
+            <div class="A">
+                <p style="text-decoration:underline">position: relative</p>
+                    <ul>
+                        <li>It is used when we need to position the HTML element relative to its normal position.</li>
+                        <li>We can set top, right, bottom and left properties that will cause the element to adjust away from the normal position.</li>
+                    </ul>
+                    <button><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_position_absolute">CLICK ME FOR EXAMPLE</a></button>
+                    <p style="text-decoration:underline">position: absolute</p>
+                    <ul>
+                        <li>An element with position absolute will move according to the position of its parent element.</li>
+                        <li>In the absence of the parent element, the HTML element will be placed according to the body tag. In this case if you want to place the element at any position based on the parent element then we need to give the position : relative to parent element and then position : absolute to child element. </li>
+                    </ul>   
+                <button><a href="">CLICK ME FOR EXAMPLE</a></button>
+            </div>
+            <hr style="margin-left: 290px;
+            margin-right: 280px;">
+            <div class="Q">5. What are grid-template-columns used for?</div>
+            <div class="A">
+                <p>Grid-template-columns property defines how many columns should be there in a grid-container. The number of columns is determined by the number of values defined in the space-separated list. It takes values in px, % and fraction (fr).</p>
+                <button><a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-columns">CLICK ME FOR EXAMPLE</a></button>
+            </div>
+            <hr style="margin-left: 290px;
+            margin-right: 280px;">
+
+            <div class="Q">6. What is z-index in CSS?</div>
+            <div class="A">
+                <p>The z-index property determines the stack level of an HTML element. The “stack level” refers to the element’s position on the Z axis (as opposed to the X axis or Y axis). Elements with a higher index will be placed on top of elements with a lower index. If the z-index value of any element is positive then that element will be at the top and element having negative value of z-index will be at the bottom.</p>
+                <p>Note :-  z-index will only work on an element whose position property has been set to absolute, relative and fixed.</p>
+                <button><a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_zindex">CLICK ME FOR EXAMPLE</a></button>
+            </div>
+            <hr style="margin-left: 290px;
+            margin-right: 280px;">
+
+            <div class="Q">7. What is the difference between Padding and Margin.</div>
+            <div class="A">
+                <p>These two properties are CSS properties that provide space or gap. Both margin and padding targets the four sides of an element. </p>
+                <table border="2"
+                cellspacing="0">
+                    <tr>
+                        <th>Margin</th>
+                        <th>Padding</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                            <li>Margin provides the space between the border and nearby elements. It is the space outside the border.</li></ul>
+                        </td>
+                        <td>
+                            <ul>
+                            <li>Padding provides the space between the border and the content of an element. It is the space inside the border</li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>You can set margin values to be negative if you want elements to overlap.</li>
+                            </ul>
+                            </td>
+                        <td>
+                            <ul>
+                                <li>Padding values can only be positive.</li>
+                            </ul>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>When you set margin values, the element's size does not change, only the space around it.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>When you set padding values, the size of that element increases.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <button><a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_padding">CLICK ME FOR EXAMPLE</a></button>
+            </div>
+            <hr style="margin-left: 290px;
+            margin-right: 280px;">
+
+    </div>
+    
+</body>
+</html>
