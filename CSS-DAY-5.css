@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    padding-top: 40px;
+    text-decoration: underline;
+    font-size: 55px;
+    margin-bottom: 60px;
+    
+}
+.transition{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: transform 10s ease-in ;transform:rotateZ(150deg)
+}
+.transform{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color:black;
+}
+.transform:hover{
+    transform:translateX(200px)
+}
+.dad{
+    margin: 0 auto;
+    width: 320px;
+    height:120px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.son{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+.one{
+    width: 450px;
+    background-color: blueviolet;
+    grid-column:1/4;
+}
+.two{
+    height: 80px;
+    background-color: green;
+    grid-row:2/4;
+}
+.three{
+    background-color: blue;
+}
+.four{
+    background-color: violet;
+}
+.five{
+    background-color: orange;
+}
+.six{
+    height: 80px;
+    background-color: red;
+    grid-row:3/5 ;
+    grid-column: 3/4;
+}
+.seven{
+    background-color: greenyellow;
+}
+.eight{
+    background-color: black;
+}
+
+.Q{
+    margin-left: 290px;
+    margin-right: 280px;
+    margin-top: 20px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+}
+.Q:hover{
+    font-size: x-large;
+    color: red;
+}
+.A{
+    margin-left: 290px;
+    margin-right: 280px;
+    color: blue;
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+.A:hover{
+    font-size: large;
+    color: green;
+}
