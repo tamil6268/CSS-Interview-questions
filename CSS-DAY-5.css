@@ -13,6 +13,9 @@ h1{
     background-color: red;
     transition: transform 10s ease-in ;transform:rotateZ(150deg)
 }
+.transition:hover{
+    transform:rotateZ(150deg)
+}
 .transform{
     margin: 0 auto;
     width: 100px;
